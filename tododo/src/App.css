@@ -10,3 +10,7 @@ body {
 	background-color: var(--primaryColor);
 	color: var(--secondaryColor);
 }
+a {
+	color: inherit;
+	text-decoration: none;
+}
