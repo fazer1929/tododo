@@ -1,0 +1,18 @@
+.container {
+	width: 80%;
+	padding: 3px 3px;
+	box-sizing: border-box;
+	color: inherit;
+	margin: 10px 0px;
+	box-shadow: var(--boxShadow2);
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.task {
+	letter-spacing: 1.2;
+}
+.done {
+	text-decoration: line-through;
+}
