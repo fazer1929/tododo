@@ -9,7 +9,7 @@ function Quadrant() {
 	const [todo, setTodo] = useState("");
 	const [inpVisible, setInpVisible] = useState(0);
 	useEffect(() => {
-		setTodos(JSON.parse(localStorage.getItem("todos")));
+		setTodos(JSON.parse(localStorage.getItem("todos")) || []);
 		console.log(localStorage.getItem("todos"));
 	}, []);
 	const addItem = (quad) => {
